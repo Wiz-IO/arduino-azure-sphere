@@ -5,7 +5,7 @@
 * * Arduino applications
 * It is very beta version - **may be bugs yet** 
 
-![Project](https://raw.githubusercontent.com/Wiz-IO/LIB/master/images/arduino-azure-sphere.png) 
+![Project](https://raw.githubusercontent.com/Wiz-IO/LIB/master/azure/arduino-azure-sphere.png) 
 
 **Board** 
 * [Azure Sphere MT3620 Starter AES-MS-MT3620-SK-G by Avnet](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-ms-mt3620-sk-g-3074457345636825680/)
