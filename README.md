@@ -10,16 +10,15 @@
 * [Azure Sphere MT3620 Starter AES-MS-MT3620-SK-G by Avnet](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-ms-mt3620-sk-g-3074457345636825680/)
 
 ## Installation
-* You need original SDK to be installed, there is compiler and uploader
-* Install Python 2 or 3
-* Add JSON link to Arduino - Preferences
-* Open Borad Manager, Find 'azure', Install OR Update (remove old versions)
+* You need original [SDK](https://docs.microsoft.com/en-us/azure-sphere/install/install) to be installed ( there is compiler and uploader )
+* Install Python ( 2 or 3 )
+* Add JSON link to Arduino - Preferences: ( here will be )
+* Open Borad Manager, Find 'azure', Install or Update
 *
 * Goto folder: C:\Users\USER_NAME\AppData\Local\Arduino15\packages\WizIO\hardware\azure\VERSION
-* Open: **boards.txt** and reedit your path to SDK
+* Open: **boards.txt** and re-edit your path to SDK
 *
-* Select Board, Click [Compile] or [Upload]
-
+* Restart Arduino IDE, Select Board, Click [Compile] or [Upload]
 
 
 ## IF YOU WANT HELP / SUPPORT - CONNECT ME
