@@ -12,13 +12,15 @@
 ## Installation
 * You need original [SDK](https://docs.microsoft.com/en-us/azure-sphere/install/install) to be installed ( there is compiler and uploader )
 * Install Python ( 2 or 3 )
-* Add JSON link to Arduino - Preferences: ( here will be )
-* Open Borad Manager, Find 'azure', Install or Update
+* Add JSON link to Arduino - Preferences: https://raw.githubusercontent.com/Wiz-IO/arduino-azure-sphere/master/package_wizio.azure_index.json 
+* Open Borad Manager, Find 'azure' and Install 
 *
 * Goto folder: C:\Users\USER_NAME\AppData\Local\Arduino15\packages\WizIO\hardware\azure\VERSION
-* Open: **boards.txt** and re-edit your path to SDK
+* Open: **boards.txt** and edit your path to SDK
 *
-* Restart Arduino IDE, Select Board, Click [Compile] or [Upload]
+* Restart Arduino IDE, Select Board 
+* Open Project folder: Put file **app_manifest.json** and Edit your **Capabilities**
+* Click [Compile] or [Upload]
 
 
 ## IF YOU WANT HELP / SUPPORT - CONNECT ME
