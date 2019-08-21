@@ -1,5 +1,5 @@
 # Arduino applications for Azure Sphere
-* Version 1.0.2
+* Version 1.0.0
 * **OS Windows 10 ( only )** 
 * Sysroot 2+Beta1905 ( use last beta )
 * It is very beta version - **may be bugs yet** 
