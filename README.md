@@ -23,7 +23,7 @@
 * Create INO, Open INO Project folder and put file **app_manifest.json** and edit your **Capabilities**
 * Click [Compile] or [Upload]
 
-Simple: app_manifest.json
+Simple: app_manifest.json or [Application manifest](https://docs.microsoft.com/en-us/azure-sphere/app-development/app-manifest)
 ```json
 {
     "SchemaVersion": 1,
