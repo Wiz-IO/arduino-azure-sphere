@@ -3,7 +3,7 @@
     {
       "name": "WizIO",
       "maintainer": "WizIO",
-      "websiteURL": "https://github.com/Wiz-IO",
+      "websiteURL": "https://github.com/Wiz-IO/arduino-azure-sphere",
       "email": "the_wizarda@gmail.com",
       "platforms": [
         {
@@ -11,11 +11,11 @@
           "architecture": "azure",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "http://46.233.13.100/azure/azure_core.1.0.0.zip",
+          "url": "http://azure_core.1.0.0.zip",
           "archiveFileName": "azure_core.1.0.1.zip",
           "checksum": "",
           "size": "59810",
-          "help": { "online": "https://github.com/Wiz-IO/" },
+          "help": { "online": "https://github.com/Wiz-IO/arduino-azure-sphere" },
           "boards": [
             { "name": "MT3620_AESMS" }
           ],
@@ -41,7 +41,7 @@
             { 
               "host": "i686-mingw32",
               "archiveFileName": "azure_gcc.1.0.0.zip",
-              "url": "http://46.233.13.100/azure/azure_gcc.1.0.0.zip",
+              "url": "http://azure/azure_gcc.1.0.0.zip",
               "size": "146",
               "checksum": ""              
             } 
@@ -56,7 +56,7 @@
             { 
               "host": "i686-mingw32", 
               "archiveFileName": "azure_tools.1.0.0.zip",
-              "url": "http://46.233.13.100/azure/azure_tools.1.0.0.zip",
+              "url": "http://azure/azure_tools.1.0.0.zip",
               "size": "2644",
               "checksum": ""                 
             } 
