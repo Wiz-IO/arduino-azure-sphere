@@ -10,17 +10,18 @@
 * [Azure Sphere MT3620 Starter AES-MS-MT3620-SK-G by Avnet](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-ms-mt3620-sk-g-3074457345636825680/)
 
 ## Installation
-* **You need install the original** [Microsoft Azure Sphere SDK](https://docs.microsoft.com/en-us/azure-sphere/install/install) to be installed ( there is compiler and uploader )
+* **You need install the original** [Microsoft Azure Sphere SDK](https://docs.microsoft.com/en-us/azure-sphere/install/install) ( there is compiler, tools and uploader )
 * Install Python ( 2 or 3, need for packer and uploader )
 * Add JSON link to Arduino - Preferences: https://raw.githubusercontent.com/Wiz-IO/arduino-azure-sphere/master/package_wizio.azure_index.json 
-* Open Borad Manager, Find 'azure' and Install 
+* Open Borad Manager, Find **azure** and Install 
 *
 * Goto folder: C:\Users\USER_NAME\AppData\Local\Arduino15\packages\WizIO\hardware\azure\VERSION
 * **Open: boards.txt and edit your path to 'Microsoft Azure Sphere SDK'**
-* If is new beta - change to max version
+* if is new beta - change to max version
 *
 * Restart Arduino IDE, Select Board 
-* Create INO, Open INO Project folder and put file **app_manifest.json** and edit your **Capabilities**
+* Create your INO, 
+* Open INO Project folder and put file **app_manifest.json** and edit your **Capabilities**
 * Click [Compile] or [Upload]
 
 Simple: app_manifest.json or [Application manifest](https://docs.microsoft.com/en-us/azure-sphere/app-development/app-manifest)
