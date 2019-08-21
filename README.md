@@ -23,6 +23,28 @@
 * Create INO, Open INO Project folder and put file **app_manifest.json** and edit your **Capabilities**
 * Click [Compile] or [Upload]
 
+Simple: app_manifest.json
+```json
+{
+    "SchemaVersion": 1,
+    "Name": "",
+    "ComponentId": "",
+    "EntryPoint": "",
+    "CmdArgs": [],
+    "Capabilities": {
+        "AllowedConnections" : [],
+        "AllowedTcpServerPorts": [],
+        "AllowedUdpServerPorts": [],
+        "Gpio": [],
+        "Uart": [],        
+        "I2cMaster": [],
+        "SpiMaster": [],
+        "SystemTime" : true,
+        "WifiConfig" : true
+    }
+}
+```
+
 
 ## IF YOU WANT HELP / SUPPORT - CONNECT ME
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ESUP9LCZMZTD6)
