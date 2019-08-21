@@ -1,0 +1,69 @@
+{
+  "packages": [
+    {
+      "name": "WizIO",
+      "maintainer": "WizIO",
+      "websiteURL": "https://github.com/Wiz-IO",
+      "email": "the_wizarda@gmail.com",
+      "platforms": [
+        {
+          "name": "Azure Sphere",
+          "architecture": "azure",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "http://46.233.13.100/azure/azure_core.1.0.0.zip",
+          "archiveFileName": "azure_core.1.0.1.zip",
+          "checksum": "",
+          "size": "59810",
+          "help": { "online": "https://github.com/Wiz-IO/" },
+          "boards": [
+            { "name": "MT3620_AESMS" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WizIO",
+              "name": "azure_gcc",
+              "version": "1.0.0"              
+            },
+            {
+              "packager": "WizIO",
+              "name": "azure_tools",
+              "version": "1.0.0"
+            }            
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "azure_gcc",
+          "version": "1.0.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32",
+              "archiveFileName": "azure_gcc.1.0.0.zip",
+              "url": "http://46.233.13.100/azure/azure_gcc.1.0.0.zip",
+              "size": "146",
+              "checksum": ""              
+            } 
+          ]
+        
+        },
+        
+        {
+          "name": "azure_tools",
+          "version": "1.0.0",
+          "systems": [ 
+            { 
+              "host": "i686-mingw32", 
+              "archiveFileName": "azure_tools.1.0.0.zip",
+              "url": "http://46.233.13.100/azure/azure_tools.1.0.0.zip",
+              "size": "2644",
+              "checksum": ""                 
+            } 
+          ] 
+        }
+        
+      ]
+    }
+  ]
+}
