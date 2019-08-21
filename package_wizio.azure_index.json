@@ -14,7 +14,7 @@
           "url": "https://github.com/Wiz-IO/arduino-azure-sphere/raw/master/azure_core.1.0.0.zip",
           "archiveFileName": "azure_core.1.0.0.zip",
           "checksum": "",
-          "size": "76773",
+          "size": "74580",
           "help": { "online": "https://github.com/Wiz-IO/arduino-azure-sphere" },
           "boards": [
             { "name": "MT3620_AESMS" }
@@ -57,7 +57,7 @@
               "host": "i686-mingw32", 
               "archiveFileName": "azure_tools.1.0.0.zip",
               "url": "https://github.com/Wiz-IO/arduino-azure-sphere/raw/master/azure_tools.1.0.0.zip",
-              "size": "2644",
+              "size": "4633",
               "checksum": ""                 
             } 
           ] 
